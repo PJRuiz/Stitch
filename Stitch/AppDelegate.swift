@@ -18,5 +18,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     return true
   }
+	
+//	func application(application: UIApplication, performActionForShortcutItem shortcutItem: UIApplicationShortcutItem, completionHandler: (Bool) -> Void) {
+//		handleShortcutItem(shortcutItem)
+//		completionHandler(true)
+//	}
+	
+//	func handleShortcutItem(
+//		shortcutItem: UIApplicationShortcutItem) {
+//			switch shortcutItem.type {
+//				case "com.entrepreneurgt.Stitch.new":
+//					presentNewStitchViewController()
+//				default:
+//					break
+//			}
+//	}
+	
+//	func presentNewStitchViewController() {
+//		let identifier = "AssetCollectionsViewController"
+//		let stitchViewController = UIStoryboard.mainStoryboard.instantiateViewControllerWithIdentifier(identifier)
+//		
+//		window?.rootViewController?.presentViewController(stitchViewController, animated: true, completion: nil)
+//		
+//	}
+	
 }
+
+//extension UIStoryboard {
+//	class var mainStoryboard: UIStoryboard {
+//		return UIStoryboard(name: "main", bundle: nil)
+//	}
+//}
+
 
